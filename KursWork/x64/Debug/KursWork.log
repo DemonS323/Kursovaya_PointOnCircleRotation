@@ -1,0 +1,38 @@
+﻿  Main.c
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(14,25): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(15,28): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(44,21): warning C4133: =: несовместимые типы - из "char [9]" в "LPCWSTR"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(48,11): warning C4098: CreateWindowClass: функция типа "void", возвращающая значение
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(73,19): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(74,19): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(86,15): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(86,20): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(86,25): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(88,17): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(88,28): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(89,18): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(89,29): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(90,18): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(90,30): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(91,17): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(91,29): warning C4244: функция: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(134,30): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(134,35): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(134,40): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(135,20): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(135,25): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Header.h(135,30): warning C4305: функция: усечение из "double" в "GLfloat"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(12,3): warning C4133: функция: несовместимые типы - из "char [9]" в "LPCWSTR"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(13,3): warning C4133: функция: несовместимые типы - из "char [14]" в "LPCWSTR"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(53,27): warning C4305: функция: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(54,24): warning C4305: функция: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(55,23): warning C4305: функция: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(56,23): warning C4305: функция: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(73,12): warning C4244: return: преобразование "WPARAM" в "int", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(87,20): warning C4244: функция: преобразование "float" в "GLsizei", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(87,27): warning C4244: функция: преобразование "float" в "GLsizei", возможна потеря данных
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(99,51): warning C4305: +=: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(103,49): warning C4305: -=: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(108,42): warning C4305: +=: усечение из "double" в "float"
+C:\Users\User\source\repos\KursWork\KursWork\Main.c(112,42): warning C4305: -=: усечение из "double" в "float"
+  KursWork.vcxproj -> C:\Users\User\source\repos\KursWork\x64\Debug\KursWork.exe
