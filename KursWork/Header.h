@@ -10,15 +10,14 @@
 
 LRESULT CALLBACK WindowProc(HWND, UINT, WPARAM, LPARAM);
 
-/* Массивы цветов холста */
-float colorCanvasBG[] = { 0.9, 0.9, 0.8 };
-float colorCanvasFrame[] = { 0.8, 0.8, 0.7 };
-
 /* Переменные */
 float width, height;
 float radius = 0.5;
 float rotate_speed = 1;
 float angle = 0.0;
+float max_speed = 50;
+float min_radius = 0.05;
+float max_radius = 0.83;
 
 HWND hwnd;
 HDC hDC;
@@ -140,7 +139,7 @@ void TButton_Show(TButton btn)
 	glPushMatrix();
 	glTranslatef(btn.vert[0], btn.vert[1], 0);
 	glScalef(2, 2, 2);
-	print_string(3, 3, btn.text, 0, 0, 0);
+	print_string(3, 3, btn.text, 1, 0.9, 0.9);
 	glPopMatrix();
 }
 

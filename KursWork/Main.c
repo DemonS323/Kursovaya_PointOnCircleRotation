@@ -96,7 +96,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 			{
 				if (strcmp(btn[i].name, "S+") == 0)
 				{
-					if (rotate_speed <= 30) { rotate_speed += 0.1; }
+					if (rotate_speed <= max_speed) { rotate_speed += 0.1; }
 				}
 				if (strcmp(btn[i].name, "S-") == 0)
 				{
@@ -105,11 +105,11 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 				}
 				if (strcmp(btn[i].name, "R+") == 0)
 				{
-					if (radius <= 0.83) { radius += 0.01; }
+					if (radius <= max_radius) { radius += 0.01; }
 				}
 				if (strcmp(btn[i].name, "R-") == 0)
 				{
-					if (radius >= 0.05) { radius -= 0.01; }
+					if (radius >= min_radius) { radius -= 0.01; }
 				}
 			}
 		break;
